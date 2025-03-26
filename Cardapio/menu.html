@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="/estilos/menu.css">
+</head>
+<body>
+    <header>Menu de opções</header>
+    <main>
+        <div class="itens">
+            <ul>
+                <li>
+                    <img src="/img/coxinha.jpg" alt="coxinha">
+                    <p>Coxinha 5,00 R$</p>
+                    <div class="produto">
+                        <input type="number" placeholder="Quantidade" id="quantidade_coxinha">
+                        <button type="submit" onclick="coxinha()">Valor total</button>
+                        <p>total: <span id="valor_coxinha"></span> R$</p>
+
+                        <a href="personalizar.html">
+                            <button type="submit">Personalizar</button>
+                        </a>
+                    </div>
+                </li>
+                <li >
+                        <img src="/img/empada.jpg" alt="empada">
+                        <p>Empada 10,00 R$</p>
+                        <input type="number" placeholder="Quantidade" id="quantidade_empada">
+                        <button type="submit" onclick="empada()">Valor total</button>
+                        <p>total: <span id="valor_empada"></span> R$</p>
+
+                        <a href="personalizar.html">
+                            <button type="submit">Personalizar</button>
+                        </a>
+                </li>
+
+                <li>
+                    <img src="/img/esfirra.jpg" alt="esfirra">
+                    <p>Esfirra 25,00 R$</p>
+                    <input type="number" placeholder="Quantidade" id="quantidade_esfirra">
+                    <button type="submit" onclick="esfirra()">Valor total</button>
+                    <p>total: <span id="valor_esfirra"></span> R$</p>
+
+                    <a href="personalizar.html">
+                        <button type="submit">Personalizar</button>
+                    </a>
+                </li>
+                <li>
+                    <img src="/img/minipizza.jpg" alt="minipizza">
+                    <p>Mine pizza 15,00 R$</p>
+                    <input type="number" placeholder="Quantidade" id="quantidade_minipizza">
+                    <button type="submit" onclick="minipizza()">Valor total</button>
+                    <p>total: <span id="valor_minipizza"></span> R$</p>
+                    <a href="personalizar.html">
+                        <button type="submit">Personalizar</button>
+                    </a>
+                    
+                </li>
+                <li>
+                    <img src="/img/pastel.jpg" alt="pastel">
+                    <p>Pastel 4,00 R$</p>
+                    <input type="number" placeholder="Quantidade" id="quantidade_pastel">
+                    <button type="submit" onclick="pastel()">Valor total</button>
+                    <p>total: <span id="valor_pastel"></span> R$</p>
+                   
+                    <a href="personalizar.html">
+                        <button type="submit">Personalizar</button>
+                    </a>
+                </li>
+                <li>
+                    <img src="/img/sanduíche.jpg" alt="sanduíche">
+                    <p>Sanduíche 30,00 R$</p>
+                    <input type="number" placeholder="Quantidade" id="quantidade_sanduiche">
+                    <button type="submit" onclick="sanduiche()">Valor total</button>
+                    <p>total: <span id="valor_sanduiche"></span> R$</p>
+                   
+                    <a href="personalizar.html">
+                        <button type="submit">Personalizar</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script src="valores.js"></script>
+    </main>
+        
+</body>
+</html>

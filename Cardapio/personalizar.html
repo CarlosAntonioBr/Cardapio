@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizar Pedido</title>
+    <link rel="stylesheet" href="/estilos/personalizar.css">
+</head>
+<body>
+    <main>
+        <section class="sabores">
+            <h1>Personalizar</h1>
+            <label class="opcao">
+                <input type="checkbox" id="frango">
+                <span>Frango</span>
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" id="carne">
+                <span>Carne</span>
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" id="queijo">
+                <span>Queijo</span>
+            </label>
+
+            <button onclick="confirmarSabores()">Confirmar</button>
+        </section>
+
+        <span id="sabor_selecionado">0</span>
+
+        <section class="bebidas">
+            <h1>Adicionar ao seu pedido</h1>
+            <label class="opcao">
+                <input type="checkbox" id="coca">
+                <span>Coca-Cola</span>
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" id="guarana">
+                <span>Guaraná</span>
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" id="sprite">
+                <span>Sprite</span>
+            </label>
+
+            
+
+            <button onclick="confirmarBebidas()">Adicionar</button>
+         </section>
+
+            <span id="bebida_selecionada">0</span>
+    </main>
+    
+    <script src="personalizar.js"></script>
+
+</body>
+</html>
